@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../App.css"
 
 const Navbar = () => {
     return (
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="Home">Home</a>
+                                <a class="nav-link" aria-current="page" href="Home">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="Product">Product</a>
@@ -24,15 +24,15 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="Contact">Contact Us</a>
                             </li>
-
+                          
                         </ul>
 
                     </div>
                 </div>
             </nav>
+
         </div>
     );
-}
-
+};
 
 export default Navbar;
