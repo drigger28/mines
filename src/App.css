@@ -1,43 +1,36 @@
 /* Navbar */
 .navbar-nav   a {
-  font: 100px;
   display: flex;
+  font: 100px;
+  
 }
 
 
 /* Home */
 .Home  {
+display: flex;
 font:200px;
 font-size: medium;
 align-content: center;
-display: flex;
+
 
 }
 
 img {
+  display: flex;
   max-width:80%;
   height: 100%;
   align-self:center;
   align-self: center;
-  display: flex;
+  
 
 }
 
 
 .App {
-  text-align: center;
   display: flex;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align: center;
+  
 }
 
 .App-header {
@@ -54,16 +47,12 @@ img {
 
 
 .map-container {
-  width: 100%;
+  display: flex;
+  width: 80%;
   height: 40vh;
   align-self: center;
-  align-items: center;
-  display: flex;
+  
 }
-
-
-
-
 
 .ContactUsdiv {
   display:flex;
@@ -76,7 +65,6 @@ img {
   color: white;
   
 }
-
 .ContactUsData {
   display: flex;
   flex-direction: column;
@@ -84,16 +72,17 @@ img {
   margin-bottom: 20px;
   align-items: flex-start;
 }
-
 .data {
+  display: flex;
   margin: 10px;
   font-size: 1rem;
-  display: flex;
+  
 }
 
 .styledlink {
-  margin: 0;
   display: flex;
+  margin: 0;
+  
 }
 
 .sameRow {
@@ -114,17 +103,29 @@ img {
 }
 
 .heading {
+  display: flex;
   font-size: 2rem;
+  
 }
 
 .button:hover {
   transform: scale(1.1);
+  display: flex;
 }
 
 .subheading {
+  display: flex;
   margin: 0px;
   margin-left: 10px;
   font-size: 1.2rem;
+  
+}
+
+.navbar-nav{
+  display:block;
+
+  
+
 }
 
 .buttonsdiv {
@@ -135,18 +136,10 @@ img {
 }
 
 .iconStyle {
+  display: flex;
   width: 25px;
   height: 30px;
-  display: flex;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
 
 @media only screen and (max-width: 500px) {
@@ -157,10 +150,11 @@ img {
     font-size: 1.1rem;
   }
   .iconStyle {
+    display: flex;
     width: 20px;
     height: 25px;
     margin-left: 20px;
-    display: flex;
+    
   }
   .data {
     font-size: 0.8rem;
@@ -174,6 +168,7 @@ img {
   }
 
   .button {
+    display: flex;
     padding: 10px 20px;
     margin: 15px 0px;
     width: fit-content;
@@ -183,4 +178,11 @@ img {
   .styledlink {
     font-size: 1rem;
   }
+  .map-container {
+    display: flex;
+  }
+  .ContactUsData{
+    display: flex;
+  }
+
 }

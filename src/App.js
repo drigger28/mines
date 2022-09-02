@@ -7,11 +7,14 @@ import Contact from './Components/Contact';
 import { BrowserRouter as Switch, Route } from 'react-router-dom';
 
 
+
 function App() {
   return (
     <>
 
-      < Navbar />
+  
+     <Navbar />
+  
       
         <Switch>
 
