@@ -1,6 +1,7 @@
 /* Navbar */
 .navbar-nav   a {
   font: 100px;
+  display: flex;
 }
 
 
@@ -9,6 +10,7 @@
 font:200px;
 font-size: medium;
 align-content: center;
+display: flex;
 
 }
 
@@ -17,12 +19,14 @@ img {
   height: 100%;
   align-self:center;
   align-self: center;
+  display: flex;
 
 }
 
 
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -54,6 +58,7 @@ img {
   height: 40vh;
   align-self: center;
   align-items: center;
+  display: flex;
 }
 
 
@@ -69,6 +74,7 @@ img {
   margin-bottom: 20px;
   background-color: #6a6464;
   color: white;
+  
 }
 
 .ContactUsData {
@@ -82,10 +88,12 @@ img {
 .data {
   margin: 10px;
   font-size: 1rem;
+  display: flex;
 }
 
 .styledlink {
   margin: 0;
+  display: flex;
 }
 
 .sameRow {
@@ -129,6 +137,7 @@ img {
 .iconStyle {
   width: 25px;
   height: 30px;
+  display: flex;
 }
 
 @keyframes App-logo-spin {
@@ -150,7 +159,8 @@ img {
   .iconStyle {
     width: 20px;
     height: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
+    display: flex;
   }
   .data {
     font-size: 0.8rem;
