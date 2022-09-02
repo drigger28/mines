@@ -178,11 +178,5 @@ img {
   .styledlink {
     font-size: 1rem;
   }
-  .map-container {
-    display: flex;
-  }
-  .ContactUsData{
-    display: flex;
-  }
 
 }

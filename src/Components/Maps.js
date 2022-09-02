@@ -10,9 +10,9 @@ function Maps() {
                 width="390"
                 height="200"
                 style={{ border: "0" }}
-                allowfullScreen=""
+                allowFullScreen="yes"
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
     );
 };
