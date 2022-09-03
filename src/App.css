@@ -179,4 +179,31 @@ img {
     font-size: 1rem;
   }
 
+  /* Navbar container */
+.navbar {
+  
+  background-color:rgb(255, 249, 249);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+ 
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 }
